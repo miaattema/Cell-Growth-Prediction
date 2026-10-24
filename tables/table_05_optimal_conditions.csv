@@ -1,0 +1,5 @@
+Variable,Best Predicted Value,Predicted Max Growth Rate [d^-1],Worst Predicted Value,Predicted Min Growth Rate [d^-1]
+Temperature [C],36.21,0.34,30.0,0.16
+pH,6.97,0.34,6.0,-0.14
+Glucose [mM],39.9,0.45,0.0,0.31
+Lactate [mM],0.0,0.47,32.56,0.28
