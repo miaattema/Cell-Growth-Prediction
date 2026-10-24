@@ -131,6 +131,7 @@ High cellular growth occurs under favourable conditions for temperature and pH, 
 |pH             |[6.73, 7.19]          |[6.0, 7.8]           |7.02                       |7.0                       |
 |Glucose [mM]   |[12.0, 32.6]          |[0.0, 32.5]          |21.83                      |13.49                     |
 |Lactate [mM]   |[0.0, 11.3]           |[0.0, 33.8]          |3.37                       |17.55                     |
+
 This is helpful to visualize the optimal output ranges, but less helpful with the low output ranges, as they span almost the entire range for each input variable. It is important to note here that these ranges are products of interactions between the inputs. To get a better idea of the individual inputs, a for in function is used. By taking a baseline value for each input (in this case, the median value of each input), each input is varied across its range (given by its minimum and maximum values within the data set) while all other variables are kept constant. The best and worst growth rates are found. The results are summarized in figure 4 and Table 5 below.
 <p align="center">
   <img src="figures/figure_04_growth_rate_vs_inputs.png" width="500">
