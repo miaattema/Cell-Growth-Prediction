@@ -2,18 +2,18 @@
 When main.py is run, a predictive machine-based learning model is created and optimized based on standardized error, ease of understanding, and optimized parameters. Several models are evaluated, including parametric and non-parametric models, with relative errors and model specifications ranked to find the best model.  
 
 ## Highlights
-*Processed data from cell culture process using Python and Pandas
-*Developed Polynomial regression and k-Nearest Neighbours models
-*illustrated validation and learning curves for prospective models
-*Evaluated performance metrics, prioritizing accuracy and simplicity
-*Optimized fitted model to predict cell growth rates
+-Processed data from cell culture process using Python and Pandas
+-Developed Polynomial regression and k-Nearest Neighbours models
+-illustrated validation and learning curves for prospective models
+-Evaluated performance metrics, prioritizing accuracy and simplicity
+-Optimized fitted model to predict cell growth rates
 
 ## Environment
-*Python (version 3.14.7) 
-*matplotlib (version 3.11.0) 
-*numpy (version 2.5.2) 
-*pandas (version 3.0.5) 
-*scikit-learn (version 1.9.0)
+-Python (version 3.14.7) 
+-matplotlib (version 3.11.0) 
+-numpy (version 2.5.2) 
+-pandas (version 3.0.5) 
+-scikit-learn (version 1.9.0)
 
 ## Workflow 
 This workflow uses a machine learning pipeline to simplify the code by organizing the preprocessing and feature engineering steps. This pipeline uses the following structure: the data is split, the pipeline objects are instantiated, the target values are predicted, and the evaluation metrics are calculated. 
@@ -69,6 +69,7 @@ The rankings of the mean score and standard deviations are shown in Tables 1 and
 |13             |15                                    |distance                          |-0.15408368616949084|0.01213650920386857    |0.0                  |0.0                  |
 |14             |16                                    |distance                          |-0.1545398772272265 |0.01265930769427029    |0.0                  |0.0                  |
 |15             |11                                    |uniform                           |-0.15460230398067776|0.010104711338038717   |-0.14734084277861131 |0.004684114485137398 |
+
 As seen, the best choices for each model type are polynomial, degree 2, and k-nearest neighbours, k=9. For the polynomial model, decreasing the complexity does not provide a significant benefit, as the model is simple as is. Furthermore, the error increases. For k-nearest neighbours, increasing and decreasing k provides marginal changes in terms of the mean and standard deviation scores. 
 
 For further justification, validation curves are employed. The validation curve for all degrees of the polynomial model is shown in Figure 1a.
