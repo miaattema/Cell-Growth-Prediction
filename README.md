@@ -145,6 +145,7 @@ This is helpful to visualize the optimal output ranges, but less helpful with th
 |pH             |6.95                |0.38                            |6.0                  |-0.22                           |
 |Glucose [mM]   |39.9                |0.59                            |0.0                  |0.34                            |
 |Lactate [mM]   |0.0                 |0.47                            |40.0                 |0.05                            |
+
 As seen, in figure 4, temperature and pH both have a second-order effect on cell growth and we can clearly see the maximum growth at a specific point; in this case, temperature is 37.06 °C and pH is 6.95. This is reinforced with our optimal ranges given in Table 4. On either side of the max or outside of the high growth range from Table 4 (again, this is arbitrary), cell growth decreases. For glucose and lactate, the curves look almost exponential (however, we know they are second-order, from the model). From this, we infer that from the given range of data, an increase in glucose increases cellular growth, while an increase in lactate decreases cellular growth. 
 The model can be unreliable outside of the limits given in the dataset, as the model would have to extrapolate beyond its training. 
 ### Applications 
